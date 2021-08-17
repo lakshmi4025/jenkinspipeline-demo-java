@@ -8,7 +8,7 @@ pipeline {
                  sh '''javac jenkins.java
                  java jenkins
                  '''
-                 //echo 'fail!';exit1
+                 echo 'fail!';exit1
                  echo 'success'
             }
         }
